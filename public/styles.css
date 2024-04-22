@@ -555,8 +555,6 @@ video {
 }
 
 body {
-  margin-left: auto;
-  margin-right: auto;
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 8% / var(--tw-bg-opacity));
   font-family: Space Grotesk, sans-serif;
@@ -564,14 +562,23 @@ body {
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
+.container,
+.footer-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 @media (min-width: 768px) {
-  body {
+  .container,
+.footer-content {
     max-width: 768px;
   }
 }
 
 @media (min-width: 1024px) {
-  body {
+  .container,
+.footer-content {
     max-width: 1120px;
   }
 }

@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 body {
-  @apply bg-dark text-white font-space-grotesk md:max-w-[768px] lg:max-w-[1120px] mx-auto;
+  @apply bg-dark text-white font-space-grotesk;
+}
+.container,
+.footer-content {
+  @apply w-full md:max-w-[768px] lg:max-w-[1120px] mx-auto;
 }
 .header {
   @apply h-[383px] md:h-[600px] md:max-w-full w-full mx-auto 
