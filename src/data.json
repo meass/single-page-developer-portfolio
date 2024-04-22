@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "title": "Space tourism multi-page website",
+      "src": "/assets/images/thumbnail-project-1.jpg",
+      "alt": "thumbnail-project-1",
+      "language": ["nextjs", "tailwind", "typescript"],
+      "github": "https://github.com/meass/space-tourism-website",
+      "demo": "https://space-tourism-website-one-dusky.vercel.app/"
+    },
+    {
+      "title": "GitHub user search app",
+      "src": "/assets/images/thumbnail-project-2.jpg",
+      "alt": "thumbnail-project-2",
+      "language": ["api", "tailwind", "typescript", "webpack"],
+      "github": "https://github.com/meass/github-user-search",
+      "demo": "https://github-user-search-kh.netlify.app/"
+    },
+    {
+      "title": "Advice generator app",
+      "src": "/assets/images/thumbnail-project-3.jpg",
+      "alt": "thumbnail-project-3",
+      "language": ["api", "tailwind", "typescript"],
+      "github": "https://github.com/meass/advice-generator-app",
+      "demo": "https://advice-generator-kh.netlify.app/"
+    },
+    {
+      "title": "News homepage",
+      "src": "/assets/images/thumbnail-project-4.jpg",
+      "alt": "thumbnail-project-4",
+      "language": ["html", "css", "js", "typescript"],
+      "github": "https://github.com/meass/news-homepage-typescript-tailwind",
+      "demo": "https://new-homepage-typescript-tailwind.netlify.app/"
+    },
+    {
+      "title": "Age calculator app",
+      "src": "/assets/images/thumbnail-project-5.jpg",
+      "alt": "thumbnail-project-5",
+      "language": ["html", "css", "js", "typescript"],
+      "github": "https://github.com/meass/age-calculator-typescript-tailwind",
+      "demo": "https://65d4723c9e9f6baa395000a8--age-calculator-typescript-tailwind.netlify.app/"
+    },
+    {
+      "title": "Base Apparel coming soon page",
+      "src": "/assets/images/thumbnail-project-6.jpg",
+      "alt": "thumbnail-project-6",
+      "language": ["html", "css", "js", "typescript"],
+      "github": "https://github.com/meass/base-apparel-typescript-tailwind",
+      "demo": "https://base-apparel-coming-soon-meas.netlify.app/"
+    },
+    {
+      "title": "Intro component with sign-up form",
+      "src": "/assets/images/thumbnail-project-7.jpg",
+      "alt": "thumbnail-project-7",
+      "language": ["html", "css", "js", "typescript"],
+      "github": "https://github.com/meass/intro-component-with-signup-form",
+      "demo": "https://intro-component-with-signup-form-meas.netlify.app/"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark text-white font-space-grotesk md:max-w-[768px] lg:max-w-[1120px] mx-auto;
+}
+.header {
+  @apply h-[383px] md:h-[600px] md:max-w-full w-full mx-auto 
+  bg-[url('/assets/images/imageedit_4.jpg')] bg-no-repeat bg-center md:bg-right
+  bg-contain;
+}
+.footer {
+  @apply flex flex-col w-full md:flex-row pb-10 bg-dark-gray;
+}
+.header .mobile {
+  @apply block md:hidden;
+}
+.header .tablet {
+  @apply hidden md:block max-w-[322px] ml-auto;
+}
+.header h1,
+.footer h1 {
+  @apply text-center py-5 text-2xl md:text-3xl font-bold;
+}
+.header ul,
+footer ul {
+  @apply flex justify-center gap-5;
+}
+.social-media {
+  @apply flex flex-col md:flex-row md:px-7 w-full items-center justify-between;
+}
+.intro-desktop {
+  @apply hidden md:block md:px-7 max-w-[568px];
+}
+.intro-desktop h2 {
+  @apply text-[72px] font-bold;
+}
+.intro-desktop p {
+  @apply text-base md:text-heading-base md:py-6;
+}
+.intro-desktop h3 {
+  @apply text-[16px];
+}
+.intro-desktop h2 span,
+.intro h2 span {
+  @apply pb-2 border-b-2 border-cyan text-4xl md:text-[72px] capitalize;
+}
+.intro {
+  @apply md:hidden text-center max-sm:px-5 my-8 md:max-w-[500px] md:text-left;
+}
+.intro h2 {
+  @apply text-4xl font-bold;
+}
+.intro p {
+  @apply py-6 text-base;
+}
+.intro span,
+.intro-desktop span {
+  @apply text-base uppercase font-bold pb-2 border-b-2 border-cyan;
+}
+hr {
+  @apply mx-5 md:mx-7;
+}
+.skill {
+  @apply grid grid-cols-1 md:grid-cols-2 md:px-7 lg:grid-cols-3 gap-6 text-center md:text-start items-center py-12;
+}
+.skill h3 {
+  @apply text-3xl md:text-heading-lg font-bold;
+}
+.skill span {
+  @apply text-base md:text-heading-base font-medium text-gray;
+}
+main {
+  @apply px-5 py-12 md:px-7;
+}
+#projectContainer {
+  @apply grid grid-cols-1 md:grid-cols-2 md:gap-6;
+}
+.projects {
+  @apply flex justify-between items-center py-6 md:py-16;
+}
+.projects h2 {
+  @apply text-4xl md:text-[72px] font-bold;
+}
+.projects span {
+  @apply text-base font-bold uppercase border-b-2 border-cyan pb-2;
+}
+.project-detail {
+  @apply pb-16;
+}
+.project-detail h3 {
+  @apply uppercase text-heading-md;
+}
+.project-language {
+  @apply pr-2 text-heading-base text-gray;
+}
+.project-detail .reference,
+.project-detail .language {
+  @apply text-base md:text-heading-md uppercase font-light;
+}
+.project-detail .language {
+  @apply pb-4;
+}
+.project-title {
+  @apply py-4;
+}
+.reference a {
+  @apply pb-2 font-bold border-b-2 border-cyan mr-4 cursor-pointer hover:text-cyan;
+}
+
+/* footer {
+  @apply bg-dark-gray px-4 py-20;
+}
+footer h2 {
+  @apply text-[40px] font-bold text-center;
+}
+footer p {
+  @apply text-[16px] text-center py-4;
+}
+footer div {
+  @apply flex flex-col w-full;
+}
+footer div input,
+footer div textarea {
+  @apply w-full bg-transparent border-b-2 border-white pb-4 my-4 focus:outline-none;
+}
+footer div button {
+  @apply uppercase w-fit pb-2 border-b-2 border-cyan self-end;
+}
+footer hr {
+  @apply w-full mt-20 mb-4;
+} */
