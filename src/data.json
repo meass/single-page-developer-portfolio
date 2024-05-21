@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "title": "Frontend Quiz app",
+      "src": "/assets/images/thumbnail-project-8.jpg",
+      "alt": "thumbnail-project-8",
+      "language": ["nextjs", "tailwind", "framer motion"],
+      "github": "https://github.com/meass/quiz-app",
+      "demo": "https://quiz-app-ahsx.vercel.app/"
+    },
+    {
       "title": "Space tourism multi-page website",
       "src": "/assets/images/thumbnail-project-1.jpg",
       "alt": "thumbnail-project-1",
