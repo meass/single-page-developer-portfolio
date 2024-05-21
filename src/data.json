@@ -4,7 +4,7 @@
       "title": "Frontend Quiz app",
       "src": "/assets/images/thumbnail-project-8.jpg",
       "alt": "thumbnail-project-8",
-      "language": ["nextjs", "tailwind", "framer motion"],
+      "language": ["nextjs", "tailwind", "api", "framer motion"],
       "github": "https://github.com/meass/quiz-app",
       "demo": "https://quiz-app-ahsx.vercel.app/"
     },
